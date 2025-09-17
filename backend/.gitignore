@@ -1,0 +1,28 @@
+# Node
+node_modules
+npm-debug.log*
+pnpm-debug.log*
+
+# Env files
+.env
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Editor junk
+.DS_Store
+.idea
+.vscode
+*.swp
+
+# Build
+dist
+coverage
