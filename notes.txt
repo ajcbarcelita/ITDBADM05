@@ -1,0 +1,30 @@
+Backend (Node + Express) Dependencies
+dotenv (.env file)
+Express
+objection
+knex
+mysql2
+
+cors
+multer (file uploads)
+jsonwebtoken
+nodemon
+joi (schmea validation)
+day.js (to help wiht handling DATETIME)
+morgan (HTTP request logger)
+winston (general purpose logger)
+
+we can use a hybrid ORM + query builder, bc ORMs like Sequelize
+will struggle dealing with complex queries
+
+we will be using Objective.js + Knex
+Objection.js → gives us structure with Models and relations, so tables map to JavaScript classes (Users, Orders, Products). It makes CRUD and relationship handling much cleaner than writing SQL everywhere.
+
+Knex.js → is the underlying query builder. It powers Objection, but also lets us write flexible, optimized SQL when queries get complicated. It also provides migrations and seeds to version and populate the database schema.
+👉 Why both?
+
+Knex is the engine (raw SQL power, migrations, complex queries).
+
+Objection.js is the car (models, relationships, structured code).
+
+Together, they give us the convenience of an ORM plus the control of raw SQL — the best of both worlds.

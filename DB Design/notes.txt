@@ -1,4 +1,0 @@
-notes for new schema
-
-- consult sir on design for new db with support for multiple currencies
-- remove reviews
